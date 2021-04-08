@@ -1,18 +1,15 @@
 <script>
 import Navbar from "./components/Navbar";
-import BgImage from "./components/bgImage";
 
 export default {
   components: {
     Navbar,
-    BgImage,
   },
 };
 </script>
 
 <template>
   <Navbar />
-  <BgImage />
   <router-view />
 </template>
 

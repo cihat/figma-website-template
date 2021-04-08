@@ -26,7 +26,8 @@ export default {};
 <style scoped lang="scss">
 nav {
   margin-top: 12px;
-  margin-bottom: 253px;
+  position: relative;
+  z-index: 1;
   ul {
     display: flex;
     align-items: center;
@@ -69,6 +70,12 @@ nav {
         font-size: 12px;
         line-height: 18px;
         cursor: pointer;
+        transition: color 1s;
+      }
+      button:hover {
+        color: #091133;
+        border: 2px solid #091133;
+        background-color: inherit;
       }
     }
   }
