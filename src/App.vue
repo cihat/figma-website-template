@@ -1,16 +1,22 @@
 <script>
 import Navbar from "./components/Navbar";
+import BgImage from "./components/BgImage";
+import Footer from "./components/Footer";
 
 export default {
   components: {
     Navbar,
+    BgImage,
+    Footer,
   },
 };
 </script>
 
 <template>
   <Navbar />
+  <BgImage />
   <router-view />
+  <Footer />
 </template>
 
 <style lang="scss">

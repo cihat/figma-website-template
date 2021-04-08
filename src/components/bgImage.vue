@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "bgImage",
+  name: "BgImage",
 };
 </script>
 

@@ -13,7 +13,9 @@ export default {};
         </ul>
       </li>
       <li class="title">
-        <a href="#"><h1>Landie</h1></a>
+        <router-link class="link" tag="h1" to="/">
+          <h1>Landie</h1>
+        </router-link>
       </li>
       <li class="button">
         <button>Buy Now</button>

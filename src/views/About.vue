@@ -9,4 +9,7 @@ export default {};
 </template>
 
 <style scoped lang="scss">
+h1 {
+  margin-bottom: 100rem;
+}
 </style>
